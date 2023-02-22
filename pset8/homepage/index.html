@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+        <title>
+            home.
+        </title>
+    </head>
+    <body>
+
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+          <strong>Hey there!</strong> Certain tea varieties aren't listed here because I didn't have them at home :) psst- try hovering over bolded text!
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div>
+            <br>
+            <h1 class="title1" style="top: 70px; color:#e4f7ee;">the tea tour;</h1>
+            <h6 class="title2" style="top: 80px">which one would you like to visit?</h6>
+            <hr>
+        </div>
+
+        <div>
+
+            <img src="images/b_earlg.jpeg" alt="Black Tea" style="width:180px; height:180px" class="mainpics" id="blackt">
+            <p class="labels" id="blackteatxt"  style = "opacity:0; text-align:center;">black tea</p>
+
+        </div>
+
+        <div>
+            <img src="images/g_matcha.jpeg" alt="Green Tea" style="width:180px; height:180px" class="mainpics" id="greent">
+            <p class="labels" id="greenteatxt" style = "opacity:0; text-align:center;">green tea</p>
+        </div>
+
+        <div>
+            <img src="images/o_gdragon.jpeg" alt="Oolong Tea" style="width:180px; height:180px" class="mainpics" id="oolongt">
+            <p class="labels" id="oolongteatxt" style = "opacity:0; text-align:center;">oolong tea</p>
+        </div>
+
+        <div>
+            <img src="images/w_whitet.jpeg" alt="White Tea" style="width:180px; height:180px" class="mainpics" id="whitet">
+            <p class="labels" id="whiteteatxt" style = "opacity:0; text-align:center;">white tea</p>
+        </div>
+
+
+    <script>
+        document.querySelector('#blackt').onclick = function()
+        {
+            window.location.href = 'blacktea.html'
+        }
+
+        document.querySelector('#blackt').onmouseover = function()
+        {
+            document.querySelector('#blackteatxt').style.opacity = "1.0"
+        }
+
+         document.querySelector('#blackt').onmouseout = function()
+        {
+            document.querySelector('#blackteatxt').style.opacity = "0"
+        }
+
+
+        document.querySelector('#greent').onclick = function()
+        {
+            window.location.href = 'greentea.html'
+        }
+
+        document.querySelector('#greent').onmouseover = function()
+        {
+            document.querySelector('#greenteatxt').style.opacity = "1.0"
+        }
+
+         document.querySelector('#greent').onmouseout = function()
+        {
+            document.querySelector('#greenteatxt').style.opacity = "0"
+        }
+
+        document.querySelector('#oolongt').onclick = function()
+        {
+            window.location.href = 'oolongtea.html'
+        }
+
+
+        document.querySelector('#oolongt').onmouseover = function()
+        {
+            document.querySelector('#oolongteatxt').style.opacity = "1.0"
+        }
+
+         document.querySelector('#oolongt').onmouseout = function()
+        {
+            document.querySelector('#oolongteatxt').style.opacity = "0"
+        }
+
+
+        document.querySelector('#whitet').onclick = function()
+        {
+            window.location.href = 'whitetea.html'
+        }
+
+        document.querySelector('#whitet').onmouseover = function()
+        {
+            document.querySelector('#whiteteatxt').style.opacity = "1.0"
+        }
+
+         document.querySelector('#whitet').onmouseout = function()
+        {
+            document.querySelector('#whiteteatxt').style.opacity = "0"
+        }
+
+    </script>
+
+
+    </body>
+
+</html>

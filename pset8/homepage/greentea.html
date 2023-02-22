@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>green tea.</title>
+    </head>
+    <body style="background-color: #b0cf88">
+        <div class="bigdiv">
+            <br>
+            <div>
+                <h1 class="title1" style="text-align: center; color:#fcfaf7">this is green tea;</h1>
+                <p style="text-align: center; "><a style="color: #fcfaf7;" href="oolongtea.html"><b>next</b></a></p>
+            </div>
+
+            <div>
+                <hr>
+                <br>
+                <p>
+                <img id="matcha" class = "floatimg" src="images/g_matcha.jpeg" alt="Matcha" style="float:left;width:180px;height:180px;">
+                Green tea is made by preventing oxidation, unlike black teas. The tea leaves are quickly dried after being picked. This prevents oxidation. These teas are usually steeped for shorter periods of time and at lower temperatures. Green tea usually has less caffiene than other teas. The tea shown above is <span id="mt"><strong>matcha tea</strong></span>, which is made by taking young tea leaves and grinding them into a fine powder. One of my favourite green teas <small>(along with matcha)</small> is <span id="pearl"><strong>jasmine green tea.</strong></span>
+                </p>
+
+            </div>
+
+        </div>
+        <br>
+        <div class="center">
+
+
+                    <button class="homebut button" onclick="document.location='index.html'" style="text-align: center;">
+
+                    home
+
+                    </button>
+        </div>
+
+            <script>
+
+
+        document.querySelector('#pearl').onmouseover = function()
+        {
+            document.querySelector('#matcha').src = "images/jpearls.jpeg"
+        }
+
+         document.querySelector('#mt').onmouseover = function()
+        {
+            document.querySelector('#matcha').src = "images/g_matcha.jpeg"
+        }
+
+    </script>
+
+    </body>
+</html>
+

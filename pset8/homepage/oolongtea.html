@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>oolong tea.</title>
+    </head>
+    <body style="background-color: #9a91b8">
+        <div class="bigdiv">
+            <br>
+            <div>
+                <h1  class="title1" style="text-align: center; color:#fcfaf7">this is oolong tea;</h1>
+                <p style="text-align: center; "><a style="color: #fcfaf7;" href="whitetea.html"><b>next</b></a></p>
+            </div>
+
+            <div>
+                <hr>
+                <br>
+                <p>
+                <img id="gdtea" class = "floatimg" src="images/o_gdragon.jpeg" alt="Dragon Oolong" style="float:left;width:180px;height:180px;">
+                Oolong tea is right between black and green tea in terms of oxidation. This partial oxidation process gives it some flavour, but the distinct flavour of oolong teas comes from where it was produced. These different cultivars can prodouce very distinctive tea flavours such as <strong><span id="tgytea">Tieguanyin Oolong</span></strong> and <strong><span id="gdragon">Grey Dragon Oolong</span></strong>.
+                </p>
+
+            </div>
+
+            <br>
+
+        </div>
+        <div class="center">
+                    <button class="homebut button" onclick="document.location='index.html'" style="text-align: center;">
+                    home
+                    </button>
+        </div>
+
+
+    <script>
+        document.querySelector('#tgytea').onmouseover = function()
+        {
+            document.querySelector('#gdtea').src = "images/tgytea.jpg"
+        }
+
+         document.querySelector('#gdragon').onmouseover = function()
+        {
+            document.querySelector('#gdtea').src = "images/o_gdragon.jpeg"
+        }
+
+    </script>
+
+
+    </body>
+
+</html>
+
+
+
