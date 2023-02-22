@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    SCAN
+{% endblock %}
+
+{% block main %}
+    <h1>Check for Concerns {{date}}</h1>
+    <hr>
+    <br>
+
+    <form action="/scan" method="post" enctype="multipart/form-data">
+        <div>
+            <input type="file" accept="image/*" id="file">
+        </div>
+        <br>
+        <button class="btn btn-primary"type="submit" >Check for Concerns</button>
+    </form>
+
+
+{% endblock %}
